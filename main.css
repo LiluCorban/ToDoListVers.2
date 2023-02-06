@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    background-image: url(img/gal1.jpg);
+    background-size:cover;
+   
+}
+main {
+    width:100%  ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color:white;
+    display: flex;
+    justify-content:space-between;
+
+}
+main #start-message{
+    padding-left: 5%;
+}
+main .article{
+    width: 27%;
+    height: 80%;
+   
+    padding: 20px;
+    margin-left: 2%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgba(250, 249, 247, 0.51);
+
+}
+main .article p{
+    margin: 10px;
+    padding: 5px;
+}
+main .article .part{
+    margin: 0;
+    padding: 5px 5px 5px 10px;
+    color: white;
+    background-color: rgba(245, 162, 19, 0.588);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(93, 92, 92);
+}
+main .article .chapter{
+    font-size: 40px;
+    letter-spacing: 5px;
+    /* text-align: center; */
+}
+header .local-time{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: aliceblue;
+    padding: 60px 10px 10px 10px;
+    border-radius: 20px;
+    background-color: rgba(250, 249, 247, 0.51);
+    margin-left: 30px;
+    width: 200px;
+    text-align: center;
+    
+
+}
+header .today-date {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+    padding: 30px 20px 10px 20px;
+    border-radius: 20px;
+    background-color: rgba(250, 249, 247, 0.51);
+    margin-left: 30px;
+    width: 110px;
+    text-align: center;
+
+}
+
+
+header{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+.container{
+    width: 900px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    background-color: rgba(250, 249, 247, 0.51);
+    border-radius: 20px;
+    color:white;
+}
+button{
+    border-radius: 15px;
+    /* border: 4px solid rgba(69, 44, 3, 0.832); */
+    border: 2px solid rgb(246, 226, 193);
+    
+    box-shadow: 0 15px 35px rgba(255, 255, 255, 0.775);
+    background-color: rgb(255, 200, 106);
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    color:rgb(128, 119, 119);
+}
+button:active {
+    box-shadow: 0px 0px 5px 5px rgb(245, 162, 19),
+    0px 0px 20px 20px rgb(245, 162, 19);
+ 
+
+
+}
+button:hover{
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.container .input {
+    width: 100%;
+   
+}
+.container .panel {
+    width: 100%; 
+ 
+}
+
+.container .input #task-name-input {
+    width:500px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 5px;
+    border: 1px solid white;
+}
+.container .input #add-task-btn{
+    width: 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color:white;
+}
+
+main .task-list {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 10%; */
+   
+    
+}
+main .task-list .task{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    /* padding-left: 20px; */
+    background-color: rgba(250, 249, 247, 0.51);
+    border-radius: 20px;
+    margin: 5px;
+    
+
+}
+main .task-list .completed p{
+    text-decoration:line-through;
+    color: rgb(1, 4, 1);
+
+}
+
+
+main .task-list .task p{
+    padding: 10px 0px 0px 0px;
+    /* width: 500px; */
+    width: 80%;
+    margin: 0;
+    word-wrap: break-word;
+
+}
+main .task-list .task .limit{
+    background-color: rgb(245, 162, 19);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+    border: none;
+}
+main .task-list .task button {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    
+}
+main .task-list .task .cancel p{
+    margin: -18px 0px 0px -2px;
+        font-size: 20px;
+    text-decoration: none;
+    width: 10px;
+    
+  }
+
